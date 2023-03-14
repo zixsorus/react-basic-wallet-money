@@ -1,0 +1,10 @@
+.expense {
+    border: 1px solid salmon;
+    border-right: 5px solid salmon;
+    
+}
+
+.income {
+    border: 1px solid limegreen;
+    border-right: 5px solid limegreen;
+}

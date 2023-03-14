@@ -1,0 +1,43 @@
+form {
+    background-color:lightcyan;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+label{
+    display: inline-block;
+    margin-top:  10px;
+}
+
+input{
+    display: block;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+}
+input:focus {
+    border-color: red;
+}
+
+.btn{
+    background-color: green;
+    color: #fff;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.btn:active {
+    background-color: darkgreen;
+}
+.btn:hover {
+    background-color: rgb(2, 155, 2);
+}
+.btn:disabled{
+    border: 1px solid #999;
+    background-color: #dedede;
+    color: #666;
+}
